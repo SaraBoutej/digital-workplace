@@ -1,6 +1,6 @@
-import app from './components/app.vue';
+import sliderApp from './components/sliderApp.vue';
 
-import '../css/main.less';
+import '../../css/main.less';
 
 Vue.use(Vuetify);
 
@@ -20,8 +20,8 @@ exoi18n.loadLanguageAsync(lang, url)
   .then(i18n => {
     // init Vue app when locale ressources are ready
     new Vue({
-      render: h => h(app),
+      render: h => h(sliderApp),
       i18n,
       vuetify,
-    }).$mount('#vuetify_webpack_sample');
+    }).$mount('#digital-workplace-slider');
   });

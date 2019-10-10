@@ -12,7 +12,7 @@
       <access-permissions>*:/platform/users</access-permissions>
       <portlet-application>
         <portlet>
-          <application-ref>vuetify-webpack-sample</application-ref>
+          <application-ref>digital-workplace</application-ref>
           <portlet-ref>vuetifyWebpackSample</portlet-ref>
         </portlet>
         <title>Vuetify Webpack Sample</title>
